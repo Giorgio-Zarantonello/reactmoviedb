@@ -45,7 +45,11 @@ header {
 .search::placeholder {
   color: white;
 }
-
+@media only screen and (max-width: 600px) {
+  .search {
+    background-color: blue;
+  }
+}
 
 .movie{
   border-radius: 10px;
