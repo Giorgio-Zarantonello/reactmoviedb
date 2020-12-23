@@ -54,9 +54,11 @@ header {
   border-radius: 30px;
   font-family: inherit;
   font-size: 1.2rem;
-  
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
   color: white;       
-  margin: inherit;
+  
   }
 }
 
