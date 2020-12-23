@@ -58,10 +58,7 @@ header {
   color: white;
   display: inline-block;
   }
-  [class*="header"] {
-    padding: 1rem;
-    justify-content: center;
-    }
+  
 }
 
 .movie{
