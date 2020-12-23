@@ -54,13 +54,9 @@ header {
   border-radius: 30px;
   font-family: inherit;
   font-size: 1.2rem;
-  width: 90%;
+  
   color: white;       
-  justify-content: center;
-  height:auto;
-  display:inline-block;
-  margin: 0 auto;
-
+  margin: inherit;
   }
 }
 
