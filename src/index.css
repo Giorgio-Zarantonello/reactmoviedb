@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+*{
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: #B73225;
+  z-index: 4;backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(500px);
+
+  color: white;
+  display: flex;
+  flex-direction: column;
+
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+}
+.search {
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid #DCE1E3;
+  border-radius: 30px;
+  font-family: inherit;
+  font-size: 1.2rem;
+  padding: 0.5rem 1.5rem;
+  color: white;
+}
+
+.search:focus {
+  outline: none;
+}
+
+.search::placeholder {
+  color: white;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="search"] {
+  text-align: center;
+  background-color: transparent;
+  border: 2px solid #DCE1E3;
+  border-radius: 30px;
+  font-family: inherit;
+  font-size: 1.2rem;
+  margin-left: 10%;
+  margin-right: 10%;
+
+  color: white;
+  
+  }
+  
+}
+
+.movie{
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+  overflow: hidden;
+  background-color: #373b69;
+  margin: 2rem 1rem 2rem 1rem;
+  width : 300px;
+  position: relative;
+}
+.movie img {
+  object-fit: cover;
+  height: 450px;
+  width: 100%;
+}
+.movie-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.movie-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.movie-info h3{
+  margin: 0;
+}
+
+.movie-over{
+  display: block;
+  z-index: 2;
+
+  border: 2px solid transparent ;
+
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(35px);
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  padding: 1rem;
+  left: 0;
+  right: 0;
+  overflow: auto;
+  max-height: 100%;
+  transform: translateY(102%);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0 -3px 5px rgba(0,0,0,0.25);
+  padding: 1rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.movie:hover .movie-over{
+  transform: translateX(0%);
+}
+
+.tag {
+  background-color: #22254b;
+  padding:0.5rem ;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.tag.green {
+  color: green;
+}
+
+.tag.orange {
+  color: orange;
+}
+
+
+.tag.red{
+  color: red;
+}
