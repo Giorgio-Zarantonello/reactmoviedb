@@ -57,6 +57,9 @@ header {
   width: 90%;
   color: white;       
   justify-content: center;
+  height:auto;
+  display:inline-block;
+  margin: 0 auto;
 
   }
 }
