@@ -55,7 +55,9 @@ header {
   font-family: inherit;
   font-size: 1.2rem;
   width: 80%;
-  color: white;
+  color: white;       
+  justify-content: center;
+
   }
 }
 
