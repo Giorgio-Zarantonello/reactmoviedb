@@ -1,22 +1,19 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
+  <h3 align="center">Movie Database With Glassmorphism</h3>
+
   <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img width="390" height="844" src="https://user-images.githubusercontent.com/20912128/231874057-6d381f0b-d517-4b67-b631-371d9784b7c8.png" alt="Logo" width="80" height="80">
+
   </a>
 
-<h3 align="center">project_title</h3>
 
   <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <br />
+    <a href="https://clever-dubinsky-b2c3e0.netlify.app/">View Demo</a>
+   
   </p>
 </div>
